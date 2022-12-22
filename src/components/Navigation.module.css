@@ -1,0 +1,49 @@
+.header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  color: white;
+}
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+.header ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.socials {
+  display: flex;
+  gap: 30px;
+}
+.socials a {
+  text-decoration: none;
+  color: white;
+}
+.socials a:hover,
+.header li:hover {
+  color: #1079f3;
+  cursor: pointer;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo h2 {
+  margin: 0;
+  padding: 0 5px;
+}
+
+.opening,
+.closing {
+  font-size: 25px;
+  font-weight: bold;
+  color: #1079f3;
+}

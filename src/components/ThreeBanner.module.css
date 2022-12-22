@@ -1,0 +1,6 @@
+.canvas {
+  flex-basis: 40%;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+}

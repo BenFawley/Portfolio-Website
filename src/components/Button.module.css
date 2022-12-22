@@ -1,0 +1,23 @@
+.button {
+  padding: 12px 20px;
+  background: #1079f3;
+  border: 2px solid #1079f3;
+  color: white;
+  border-radius: 10px;
+  font-weight: 400;
+  cursor: pointer;
+  width: 150px;
+  font-size: 15px;
+  font-family: "Open Sans";
+}
+
+.button:hover {
+  background: transparent;
+}
+
+.button.transparent {
+  background: transparent;
+}
+.button.transparent:hover {
+  background: #1079f3;
+}

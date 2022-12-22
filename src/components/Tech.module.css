@@ -1,0 +1,31 @@
+.technologies {
+  background: #171920;
+  padding: 80px 20px 80px;
+}
+
+.technologies h1 {
+  margin: 0 0 40px;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  opacity: 0;
+  transition: all 1s;
+  filter: blur(5px);
+  transition-delay: 0ms;
+}
+
+.techWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2%;
+  max-width: 1420px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.showTitle {
+  opacity: 1 !important;
+  filter: blur(0) !important;
+}

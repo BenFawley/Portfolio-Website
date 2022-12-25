@@ -14,7 +14,7 @@
   height: 100%;
   padding: 0 20px;
 }
-.homebanner img {
+/* .homebanner img {
   max-width: 600px;
   width: 50%;
   background: radial-gradient(
@@ -22,7 +22,7 @@
     rgba(16, 121, 243, 0.4) 0%,
     rgba(14, 15, 19, 1) 70%
   );
-}
+} */
 .bannerText {
   color: white;
   margin: 0;

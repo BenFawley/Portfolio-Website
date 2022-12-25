@@ -48,8 +48,8 @@ const technologies = [
 const Tech = () => {
   const { ref, inView } = useInView();
   return (
-    <section className={styles.technologies}>
-      <h1 className={inView ? styles.showTitle : ""}>Technologies</h1>
+    <section id="tech" className={styles.technologies}>
+      <h1 className={inView ? styles.showTitle : ""}>My Tech Stack</h1>
       <div ref={ref} className={styles.techWrapper}>
         {technologies.map((tech) => {
           return (

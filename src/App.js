@@ -3,6 +3,7 @@ import Banner from "./components/Banner";
 import Navigation from "./components/Navigation";
 import Tech from "./components/Tech";
 import ThreeBanner from "./components/ThreeBanner";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Banner />
       <Tech />
       {/* <ThreeBanner /> */}
+      <Projects />
     </div>
   );
 }

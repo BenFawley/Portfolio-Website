@@ -16,10 +16,10 @@ const Banner = () => {
             </h1>
             <TypeAnimation
               sequence={[
-                1500,
-                "Junior Web Developer",
                 1000,
                 "Junior Frontend Developer",
+                1000,
+                "Junior Web Developer",
                 2000,
               ]}
               wrapper={"h1"}

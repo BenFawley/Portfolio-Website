@@ -26,7 +26,7 @@
 }
 
 .techItem img {
-  width: 150px;
+  width: 100px;
 }
 
 .techItem p {
@@ -41,15 +41,15 @@
 
 .techItem:nth-child(3),
 .techItem:nth-child(7) {
-  transition-delay: 200ms;
+  transition-delay: 100ms;
 }
 .techItem:nth-child(2),
 .techItem:nth-child(6) {
-  transition-delay: 400ms;
+  transition-delay: 300ms;
 }
 .techItem:nth-child(1),
 .techItem:nth-child(5) {
-  transition-delay: 600ms;
+  transition-delay: 500ms;
 }
 
 /* .techItem {

@@ -1,4 +1,7 @@
 import styles from "./Navigation.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const openTag = "<";
 const closeTag = "/>";
@@ -21,14 +24,14 @@ const Navigation = () => {
           </ul>
         </div>
         <div className={styles.socials}>
-          <a href="#" target="_blank">
-            Email
+          <a href="mailto:benfawley0@gmail.com" target="_blank">
+            <FontAwesomeIcon icon={faEnvelope} size="xl" inverse />
+          </a>
+          <a href="https://github.com/BenFawley" target="_blank">
+            <FontAwesomeIcon icon={faGithub} size="xl" inverse />
           </a>
           <a href="#" target="_blank">
-            Github
-          </a>
-          <a href="#" target="_blank">
-            LinkedIn
+            <FontAwesomeIcon icon={faLinkedin} size="xl" inverse />
           </a>
         </div>
       </div>
